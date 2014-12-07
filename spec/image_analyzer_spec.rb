@@ -1,4 +1,5 @@
-require_relative '../image_analyzer'
+require_relative './spec_helper'
+require_relative '../lib/image_analyzer'
 
 describe ImageAnalyzer do
   it 'can turn the pixel data to integers' do

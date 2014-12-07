@@ -1,4 +1,4 @@
-require './image_analyzer'
+require './lib/image_analyzer'
 
 ia = ImageAnalyzer.new 'mona.jpg'
 ia.analyze

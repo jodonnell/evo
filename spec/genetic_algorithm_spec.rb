@@ -1,7 +1,5 @@
-require_relative '../genetic_algorithm'
-
-Pixel = Struct.new(:red, :green, :blue) do
-end
+require_relative './spec_helper'
+require_relative '../lib/genetic_algorithm'
 
 describe GeneticAlgorithm do
   let(:g) { GeneticAlgorithm.new [Pixel.new(10000, 10000, 10000), Pixel.new(10000, 10000, 10000), Pixel.new(10000, 10000, 10000)],
